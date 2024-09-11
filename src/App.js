@@ -19,7 +19,7 @@ function App() {
   return (
 
     <div className="h-screen bg-gradient-to-b from-[#125655] to-black">
-      <div className='h-[80px] bg-white/50 flex justify-between shadow-lg rounded-b-3xl p-4'>
+      <div className='h-[80px] bg-white/50  flex justify-between shadow-lg rounded-b-3xl p-4'>
         <div className='w-[70px] h-full'>
           <img src={logo} alt='' className='object-contain mx-auto'/>
         </div>
@@ -33,7 +33,7 @@ function App() {
       </div>
       <div className='my-9'>
         <button  onClick={handleClick}
-        className={`block h-[20vh] text-5xl text-white font-bold w-[40%] rounded-full mx-auto bg-white/50 ${
+        className={`block h-[20vh] hover:bg-white/60 duration-150 hover:shadow-md text-5xl text-white font-bold w-[40%] rounded-full mx-auto bg-white/50 ${
           isBouncing ? 'animate-bounce' : ''
         }`}>
           Inuagurate
